@@ -13,9 +13,15 @@ inicio
             escreval(mat)
     media <- (por + mat) / 2
     escreval("média: ", media)
-    se(media>6) entao 
+
+    se(media>=6) entao 
         escreval("Parabéns, você passou!")
     senao
-        escreval("Sinto muito, você não passou...")
+        se (media >= 4) e (media<6) entao
+        escreval("Você está de RECUPERAÇÃO")
+    senao 
+        Escreval("Sinto muito, você está reprovado")
+    fimse
+
     fimse       
 fimalgoritmo
