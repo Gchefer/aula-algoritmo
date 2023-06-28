@@ -5,13 +5,14 @@ inicio
     Escreval("-------------------------------------")
     escreval("        CRIANÇA ESPERANÇA            ")
     Escreval("-------------------------------------")
-    Escreval("     Muito obrigador por ajudar      ")
+    Escreval("      Muito obrigado por ajudar      ")
     escreval("         [1] para doar R$10          ") 
     escreval("         [2] para doar R$25          ") 
     escreval("         [3] para doar R$50          ")
     escreval("    [4] para doar outro valores      ")
     escreval("          [5] para cancelar          ")
     Leia (D)
+    escreval("opção ", D)
     escolha D
         caso 1
             Valor <- 10
