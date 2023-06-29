@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "Converter em dólar"
 
 var
 convert, convertido: real
