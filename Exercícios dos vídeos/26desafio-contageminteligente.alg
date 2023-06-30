@@ -1,25 +1,33 @@
 algoritmo "contagem inteligente"
 
 var
-inicio, fim: inteiro
+    comeco, final, S, contag: inteiro
 
 
 
 inicio
     escreva("Digite o início da contagem: ")
-        leia(inicio)
-            escreval(inicio)
+        leia(comeco)
+            escreval(comeco)
     escreva("Digite o fim da contagem: ")
-        leia(fim)
-            escreval(fim)
+        leia(final)
+            escreval(final)
 
-    se(fim<=0)
-        enquanto(fim<=0) faca
-        
-        
+        se (final>0) entao
+            enquanto(comeco<=final) faca
+                escreval(comeco)
+                    comeco <- comeco + 1
+            fimenquanto
+                escreval("Esta contagem está em ordem crescente")
 
-    senao
-    fimse
+        senao
 
+            enquanto (final<=comeco) faca
+                escreval(comeco)
+                    comeco <- comeco - 1
+            fimenquanto
+                escreval("Esta contagem está em ordem decrescente")
+        fimse
+escreval("terminei de contar")
 
 fimalgoritmo
