@@ -6,15 +6,14 @@ resp: caractere
 
 inicio
  S <-0
- resp <- "S"
-    Enquanto (resp = "S") faca
+ 
+   Repita
         Escreva ("Digite o valor => ")
-            leia(N)
-                escreval(n)
+            leia(N) 
+                escreval(N)
         S <- S + N
-        Escreva ("Voce quer continuar? [S/N] ")      
-            leia(resp)
-                escreval(resp)
+        Escreva ("Voce quer continuar? [S/N] ")
+        leia(resp)
     fimenquanto
     escreval("A soma de todos os valores digitados é ", S)
 fimalgoritmo
