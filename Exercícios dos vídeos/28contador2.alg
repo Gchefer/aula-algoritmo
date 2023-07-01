@@ -9,10 +9,12 @@ inicio
  
    Repita
         Escreva ("Digite o valor => ")
-        leia(N) 
+            leia(N) 
+                escreval(N)
         S <- S + N
         Escreva ("Voce quer continuar? [S/N] ")
-        leia(resp)
+            leia(resp)
+                escreval(resp)
     ate (resp="N")
     escreval("A soma de todos os valores digitados é ", S)
 fimalgoritmo
