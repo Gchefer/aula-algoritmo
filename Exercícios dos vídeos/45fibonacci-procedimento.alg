@@ -1,3 +1,4 @@
+//Só funciona no VisualG, No VScode não está funcionando
 algoritmo "fibonacci"
 var
 
