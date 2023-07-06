@@ -1,4 +1,4 @@
-//nao ta funcionando no vs code
+//nao ta funcionando no vs coded
 algoritmo "Nome do Programa"
 
 var
