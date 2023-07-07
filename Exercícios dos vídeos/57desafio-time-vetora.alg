@@ -9,7 +9,7 @@ inicio
 
     c<-1
     para i de 1 ate 3 faca
-        escreval("Qual o nome do time que irá jogar?")
+        escreval("Qual o nome do", i,  "º time")
         leia(time[i])
         escreval(time[i])
     fimpara
