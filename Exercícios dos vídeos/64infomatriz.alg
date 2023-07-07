@@ -9,7 +9,7 @@ procedimento matrizprincipal()
 inicio
     para l de 1 ate 4 faca
         para c de 1 ate 4 faca
-            escreva(matriz[l,c]:5)
+            escreva("[", matriz[l,c], "]   ")
         fimpara
             escreval()
     fimpara
@@ -20,9 +20,9 @@ inicio
     para l de 1 ate 4 faca
         para c de 1 ate 4 faca
             se (l=c) entao
-                escreva(matriz[l,c]:5)
+                escreva("[", matriz[l,c], "]   ")
             senao
-                escreva("--":5)
+                escreva("[--]   ")
             fimse
         fimpara
             escreval()
@@ -33,9 +33,9 @@ inicio
     para l de 1 ate 4 faca
         para c de 1 ate 4 faca
             se (l<c) entao
-                escreva(matriz[l,c]:5)
+                escreva("[", matriz[l,c], "]   ")
             senao
-                escreva("--":5)
+                escreva("[--]   ")
             fimse
         fimpara
             escreval()
@@ -46,9 +46,9 @@ inicio
     para l de 1 ate 4 faca
         para c de 1 ate 4 faca
             se (l>c) entao
-                escreva(matriz[l,c]:5)
+                escreva("[", matriz[l,c]0, "]   ")
             senao
-                escreva("--":5)
+                escreva("[--]   ")
             fimse
         fimpara
             escreval()
